@@ -22,3 +22,16 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Modifications to Gutenberg HTML files
+=================
+- Removed the style tag
+- Added the stylesheet
+- Changed background to paper image
+- Changed body text to a serif font
+
+References Used by Jerwyn Alqueza
+========================
+
+https://coder-coder.com/display-divs-side-by-side/
+
+https://cssgradient.io/

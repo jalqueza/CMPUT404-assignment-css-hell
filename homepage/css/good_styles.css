@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    background: rgb(144,141,203);
+    background: linear-gradient(180deg, rgba(144,141,203,1) 1%, rgba(100,176,190,1) 100%);
+    padding: 2em;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav_bar {
+    background-color: rgb(51, 51, 51);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    width: 25%;
+    color: white;
+    font-size: 1.25em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex-container {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2em;
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    margin: 0;
+}
+
+#image{
+    width: 250px;
+    height: 450px;
+}
+
+#middle{
+    width: 80%;
+}
+
+#history{
+    padding: 0 2em 2em 2em;
+}
+
+#services{
+    padding: 2em;
+    padding: 0 2em 2em 2em;
+}
+
+#skills{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 8%, rgba(147,157,159,1) 100%);
+    font-size: 90%;
+    width: 20%;
+}
+
+#skills > h2{
+    text-align: center;
+}
+
+li{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

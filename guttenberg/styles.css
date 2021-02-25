@@ -1,0 +1,338 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+    font-family: Garamond;
+    background-image: url("../guttenberg/assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+	text-indent: 1em;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+img {
+	width: 100%;
+}
+
+.caption p {
+	text-indent: 0;
+	margin: 0.25em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+h1 {
+	font-size: 300%;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	letter-spacing: 0.12em;
+	word-spacing: 0.2em;
+	text-indent: 0em;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+h3 {
+	font-size: 150%;
+}
+
+h4 {
+	font-size: 120%;
+}
+
+h5 {
+	font-size: 110%;
+}
+
+p.right {
+	text-align: right;
+	margin-right: 10%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p.poem {
+	text-indent: 0%;
+	margin-left: 10%;
+	font-size: 90%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p.noindent {
+	text-indent: 0%
+}
+
+p.asterism {
+	margin-left: 25%;
+	text-indent: 0%;
+	letter-spacing: 0.12em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.fig {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none
+}
+
+a:visited {
+	color: blue;
+	text-decoration: none
+}
+
+a:hover {
+	color: red
+}
+
+hr {
+	width: 80%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+div.chapter {
+	page-break-before: always;
+	margin-top: 4em;
+}
+
+hr.tb {
+	width: 15%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+hr.chap {
+	width: 25%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.tdl {
+	text-align: left;
+}
+
+.tdrb {
+	text-align: right;
+	vertical-align: bottom;
+	padding-left: 4em;
+}
+
+.tdr {
+	text-align: right;
+	padding-left: 4em;
+}
+
+.tdrt {
+	text-align: right;
+	vertical-align: top;
+}
+
+
+/* Transcriber's notes */
+
+.box {
+	margin: auto;
+	margin-top: 2em;
+	border: 1px solid;
+	padding: 1em;
+	background-color: #F0FFFF;
+	width: 25em;
+}
+
+
+/* Footnotes */
+
+.footnote {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 0.9em;
+}
+
+.footnote .label {
+	position: absolute;
+	right: 84%;
+	text-align: right;
+}
+
+.fnanchor {
+	vertical-align: super;
+	font-size: .8em;
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.large {
+	font-size: large;
+}
+
+.medium {
+	font-size: medium;
+}
+
+.smcap {
+	font-variant: small-caps;
+}
+
+.i2 {
+	margin-left: 2em;
+	padding-right: 2em;
+}
+
+.i3 {
+	margin-left: 3em;
+	padding-right: 2em;
+}
+
+.right {
+	text-align: right;
+	padding-right: 2em;
+}
+
+.left {
+	text-align: left
+}
+
+.idropcap {
+	width: 6em;
+	height: auto;
+}
+
+.ddropcapbox {
+	float: left;
+	margin-left: 0em;
+	margin-right: 0em;
+}
+
+.poetry-container {
+	text-align: center;
+	font-size: 95%;
+}
+
+.poetry {
+	display: inline-block;
+	text-align: left;
+}
+
+.poetry .stanza {
+	margin: 1em 0em 2em 0em;
+}
+
+.poetry .line {
+	margin: 0;
+	text-indent: -3em;
+	padding-left: 3em;
+}
+
+.poetry .i1 {
+	margin-left: 1em;
+}
+
+.poetry .i3 {
+	margin-left: 3em;
+}
+
+.figcenter2em {
+	margin: auto;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.figcenter6em {
+	margin: auto;
+	text-align: center;
+	margin-top: 6em;
+	margin-bottom: 2em;
+}
+
+.p2 {
+	margin-top: 2em;
+}
+
+.p4 {
+	margin-top: 4em;
+}
+
+.p6 {
+	margin-top: 6em;
+}
+
+.pagenum {
+	/* uncomment the next line for invisible page numbers */
+	/*  visibility: hidden;  */
+	position: absolute;
+	left: 92%;
+	font-size: small;
+	text-align: right;
+	/* not bold */
+	font-weight: normal;
+	/* not italic */
+	font-style: normal;
+	/* not small cap */
+	font-variant: normal;
+}
+
+
+/* page numbers */
+
+img.drop-cap {
+	float: left;
+	margin: 0 0.5em 0 0;
+	position: relative;
+	z-index: 1;
+	/* Paint decorative initial over top of normal letter */
+}
+
+p.drop-cap:first-letter {
+	margin-left: -2em;
+	/* Move first letter under decorative initial */
+	padding-right: 1em;
+	/* Move rest of text back to regular flow */
+}
+
+.pfirst {
+	text-indent: 0;
+}
+
+p.center {
+	text-align: center;
+	text-indent: 0em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
